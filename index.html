@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aleksandr Zubakin</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1 id="up">Aleksandr Zubakin</h1>
+         <div class="header">
+            <div class="image-box">
+               <img src="img/9 на 12.jpg" width="100px">
+            </div>
+            <h3>Contact info:</h3>
+            <p>
+            <ul>
+               <li><a href="callto: 79128366136">+7 (912) 836-61-36</a></li>
+               <li><a href="mailto: eldoson@yandex.ru">eldoson@yandex.ru</a></li>
+            </ul>
+            </p>
+         </div>
+         <h3>Summary:</h3>
+         <p>
+            My goal is to become professional developer. In now time I see myself as web-developer. I'm focused on
+            JavaScript and I very like to programming in that language. Ten years ago when I was a student, I thought
+            that programming for special people and I will never work as developer. Since, I worked in many places and
+            never as developer. But to become a developer it is my dream, that starting to be true right now. I’m not
+            going to stop to realize it.
+         </p>
+      </header>
+      <main>
+         <section class="experience">
+            <h3>Skills:</h3>
+            <p>HTML5, CSS, JavaScript, PHP, MySQL</p>
+            <h3>Code examples (latest):</h3>
+            <p>
+            <pre>
+                  <code>
+      //Observer task, subscribe for events
+
+      module.exports = {
+                     /**
+     * @param {String} event
+     * @param {Object} subscriber
+     * @param {Function} handler
+     */
+    on: function (event, subscriber, handler) {
+        if (this[event] === undefined) {
+            this[event] = [];
+        }
+        this[event].push({ subscriber: subscriber, handler: handler });
+        return this;
+    },
+
+    /**
+     * @param {String} event
+     * @param {Object} subscriber
+     */
+    off: function (event, subscriber) {
+        if (this[event] !== undefined) {
+            this[event] = this[event].filter(element => element.subscriber != subscriber);
+        }
+        return this;
+    },
+
+    /**
+     * @param {String} event
+     */
+    emit: function (event) {
+        if (this[event] !== undefined) {
+            for (var i = 0; i < this[event].length; i++) {
+                this[event][i].handler.call(this[event][i].subscriber);
+            }
+        }
+
+        return this;
+    }
+};
+                  </code>
+               </pre>
+            </p>
+            <h3>Experience:</h3>
+            <p>
+            <ul>
+               <li>Social network<a href="https://aazubakin.github.io/distance/"> “Distance”</a> (<a
+                     href="https://github.com/aazubakin/distance">source code</a>)
+               </li>
+               <li>Advertisement’s site <a href="https://aazubakin.github.io/awito-js/">Awito.ru</a> (<a
+                     href="https://github.com/aazubakin/awito-js">source code</a>)</li>
+               <li>Poster to the film <a href="https://aazubakin.github.io/ghostbuster-poster/">“Ghostbusters”</a> (<a
+                     href="https://github.com/aazubakin/ghostbuster-poster">source</a>)
+               </li>
+            </ul>
+            </p>
+         </section>
+         <section class="education">
+            <h3>Education:</h3>
+            <ul>
+               <li>2018 - Chelyabinsk State University, Economics.</li>
+               <li>2011 - Shadrinks State University, Computer Science.</li>
+            </ul>
+            <h2>Courses</h2>
+            <ul>
+               <li>September 2020 - Michigan State University, Building Web Applications in PHP, <a
+                     href="https://www.coursera.org/account/accomplishments/verify/MUGRDMRST5R7">certificate</a></li>
+               <li>September 2020 - MPhTI, Basic HTML and CSS, <a
+                     href="https://www.coursera.org/account/accomplishments/verify/MPSN3MW3BEKH">certificate</a></li>
+               <li>August 2020 - MPhTI, JavaScript, part 1: basic and functions, <a
+                     href="https://www.coursera.org/account/accomplishments/verify/NBNBNNYDMEBA">certificate</a></li>
+            </ul>
+         </section>
+         <h3>English:</h3>
+         <p>Participated in the program “Work and Travel” as student. I’m studied english in Truman College of Chicago.
+            My second job in career was Schlumberger as IT support, often I had to answer on english language by phone.
+         </p>
+      </main>
+      <footer>
+         <a href="#up">Up to the top</a>
+      </footer>
+   </div>
+</body>
+
+</html>

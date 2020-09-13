@@ -59,13 +59,13 @@ module.exports = {
 * Poster to the film "Ghostbusters": https://aazubakin.github.io/ghostbuster-poster/([source](https://github.com/aazubakin/ghostbuster-poster))
 
 ### Education:
-* 2011 - Shadrinks State University, Computer Science.
 * 2018 - Chelyabinsk State University, Economics.
+* 2011 - Shadrinks State University, Computer Science.
 
 Courses: 
-* August 2020 - MPhTI, JavaScript, part 1: basic and functions, [sertificate](https://www.coursera.org/account/accomplishments/verify/NBNBNNYDMEBA)
-* September 2020 - MPhTI, Basic HTML and CSS, [sertificate](https://www.coursera.org/account/accomplishments/verify/MPSN3MW3BEKH)
 * September 2020 - Michigan State University, Building Web Applications in PHP, [sertificate](https://www.coursera.org/account/accomplishments/verify/MUGRDMRST5R7)
+* September 2020 - MPhTI, Basic HTML and CSS, [sertificate](https://www.coursera.org/account/accomplishments/verify/MPSN3MW3BEKH)
+* August 2020 - MPhTI, JavaScript, part 1: basic and functions, [sertificate](https://www.coursera.org/account/accomplishments/verify/NBNBNNYDMEBA)
 
 ### English:
 Participated in the program "Work and Travel" as student. I'm studied english in Truman College of Chicago. My second job in career was Schlumberger as IT support, often I had to answer on english language by phone.
