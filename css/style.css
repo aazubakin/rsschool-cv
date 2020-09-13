@@ -1,4 +1,28 @@
+body {
+   margin: 0 20px;
+}
 .container {
    max-width: 1024px;
    margin: 0 auto;
+}
+
+p {
+   text-indent: initial;
+   text-align: justify;
+}
+
+a {
+   text-decoration: none;
+}
+
+footer {
+   margin: 50px 0;
+}
+
+.header {
+   display: flex;
+}
+
+.image-box {
+   margin-right: 50px;
 }
