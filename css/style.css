@@ -1,9 +1,40 @@
+
+* {
+   box-sizing: border-box;
+}
 body {
-   margin: 0 20px;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 24px;
+}
+.wrapper {
+   display: flex;
+   margin: 0 auto;
+   max-width: 1024px;
 }
 .container {
-   max-width: 1024px;
-   margin: 0 auto;
+   width: 750px;
+   padding: 20px;
+}
+aside {
+   width: 274px;
+   padding: 0 50px;
+   background-color: #1e2939;
+   color: #fff;
+}
+.image-box {
+   width: 175px;
+ 
+   margin-top: 25px;
+}
+.contact-header {
+   color: #fff;
+}
+aside ul {
+   padding: 10px;
+   margin: 0;
+}
+aside ul li a {
+   color: #fff;
 }
 
 p {
@@ -13,6 +44,7 @@ p {
 
 a {
    text-decoration: none;
+
 }
 
 footer {
